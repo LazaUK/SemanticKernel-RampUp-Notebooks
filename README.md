@@ -1,4 +1,4 @@
-# Semantic Kernel: Jupyter Notebooks for Ramp-Up Process
+# Semantic Kernel: Jupyter Notebooks for Ramp-Up Learning Process
 
 Semantic Kernel (SK) is an open-source SDK that enables orchestration of your AI workflows. SK facilitates the development of AI agentic solutions capable of reasoning, planning and integrating with various external data sources and execution services.
 
