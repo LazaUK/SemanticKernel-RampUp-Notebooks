@@ -54,7 +54,7 @@ This notebook provides an introduction to using **Filters** in Semantic Kernel.
 
 Filters allow you to inject custom logic at specific points in the kernel's execution pipeline, enabling powerful control over AI interactions, e.g., on the prompts being entered or AI content generated.
 
-For demonstration purposes, "badword" is set as a forbidden word in the filter. Depending on the user's input, they may get a response like this:
+For demonstration purposes, "badword" is set as a forbidden word in the *Function Invocation* filter. Depending on the user's input, they may get a response like this:
 ``` JSON
 ------------------------
 - User Input: I like to talk about good things, not badword.
