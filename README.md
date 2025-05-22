@@ -31,8 +31,17 @@ This notebook intrduces management of AI services within Semantic Kernel.
 
 You'll learn how to add AI services to the kernel, retrieve them using different methods (by type or service ID) and directly utilise chat completion services for both non-streaming and streaming responses. This notebook is essential for understanding how to connect SK to your chosen AI models.
 
-It also shows how to build **rich chat history** by combining text with images and adding personalized user data through simulated function calls. For example, imagine a user asking: "**I'm looking to book a room. Can you help me find something similar to what's in this picture?**" and uploading this image:
+It also shows how to build **Rich Chat History** by combining text with images and adding personalised user data through simulated function calls. With an example, where user is asking:
+```
+I'm looking to book a room. Can you help me find something similar to what's in this picture?
+```
+and uploading this image:
 
-![Hotel Room Example](https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![Hotel Room Example](https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg)*(Image courtesy of Pexels)*
 
-The AI assistant can then use this visual information and simulated user preferences (like loyalty status) to provide a tailored response: `<<response from AI assistant considering the image and user preferences>>`
+The AI assistant can then use this visual information and user preferences (like loyalty status) to provide a tailored response:
+```
+Assistant: The room in the picture features a king-sized bed with a stylish headboard, neutral and warm decor tones with an orange accent pillow, modern wall lamps, and framed art. It also shows a clean, contemporary bathroom adjacent to the bedroom.
+
+Since you have Diamond loyalty status and prefer amenities like a king bed, balcony, high floor, and late checkout, I will look for a premium room that closely matches this style and your preferences. Could you please let me know the location or city where you want to book this room, and your check-in and check-out dates?`
+```
