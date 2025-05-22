@@ -26,6 +26,9 @@ This notebook provides a fundamental intro to Semantic Kernel, guiding you throu
 
 You'll learn how to configure your environment, add an Azure OpenAI-based AI model, enable logging and integrate your first custom plugin. The notebook also demonstrates how to perform basic AI function calls and observe the interaction between the kernel and your plugin.
 
+The code will demo fictitious home automation to switch on and off a table lamp, a porch light and a chandelier:
+![Home_Automation](images/AI_HomeAutomation.png)
+
 ## Notebook 2: Essentials - AI Services
 This notebook intrduces management of AI services within Semantic Kernel.
 
@@ -36,7 +39,6 @@ It also shows how to build **Rich Chat History** by combining text with images a
 I'm looking to book a room. Can you help me find something similar to what's in this picture?
 ```
 and uploading this image:
-
 ![Hotel Room Example](https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg)*(Image courtesy of Pexels)*
 
 The AI assistant can then use this visual information and user preferences (like loyalty status) to provide a tailored response:
