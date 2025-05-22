@@ -20,6 +20,7 @@ This repo contains Jupyter notebooks to assist you with the ramp-up learning pro
 - [Notebook 1: Quick Start](#notebook-1-quick-start)
 - [Notebook 2: Essentials - AI Services](#notebook-2-essentials---ai-services)
 - [Notebook 3: Essentials - Filters](#notebook-3-essentials---filters)
+- [Notebook 4: Essentials - Observability]()
 
 ---
 ## Notebook 1: Quick Start
