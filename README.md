@@ -2,14 +2,17 @@
 
 Semantic Kernel (SK) is an open-source SDK that enables orchestration of your AI workflows. SK facilitates the development of AI agentic solutions capable of reasoning, planning and integrating with various external data sources and execution services.
 
-> [!Note]
-> These notebooks cover topics and code based on the official Semantic Kernel documentation site [here](https://learn.microsoft.com/en-us/semantic-kernel/overview/).
+This repo contains Jupyter notebooks to assist you with the ramp-up learning process. These notebooks cover topics and Python code based on the official Semantic Kernel documentation site [here](https://learn.microsoft.com/en-us/semantic-kernel/overview/).
 
 > [!WARNING]
 > To run these notebooks successfully, you will need an Azure OpenAI Service deployment. Please ensure you have the following environment variables set up in your system:
-> - `AZURE_OPENAI_API_DEPLOY`: The deployment name of your Azure OpenAI model (e.g., `gpt-35-turbo`).
-> - `AZURE_OPENAI_API_BASE`: The endpoint URL of your Azure OpenAI service (e.g., `https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/`).
-> - `AZURE_OPENAI_API_VERSION`: The API version to use (e.g., `2024-02-15-preview`).
+>
+> | Environment Variable      | Description                                                    | Example Value                     |
+> | :------------------------ | :------------------------------------------------------------- | :-------------------------------- |
+> | `AZURE_OPENAI_API_DEPLOY` | The deployment name of your Azure OpenAI model.                | `gpt-41-mini`                    |
+> | `AZURE_OPENAI_API_BASE`   | The endpoint URL of your Azure OpenAI service.                 | `https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/` |
+> | `AZURE_OPENAI_API_VERSION`| The API version to use.                                        | `2025-03-01-preview`              |
+>
 > You can set these environment variables in your operating system or within a `.env` file in the root of your project and load them using a library like `python-dotenv`.
 
 
