@@ -30,3 +30,9 @@ You'll learn how to configure your environment, add an Azure OpenAI-based AI mod
 This notebook intrduces management of AI services within Semantic Kernel.
 
 You'll learn how to add AI services to the kernel, retrieve them using different methods (by type or service ID) and directly utilise chat completion services for both non-streaming and streaming responses. This notebook is essential for understanding how to connect SK to your chosen AI models.
+
+It also shows how to build **rich chat history** by combining text with images and adding personalized user data through simulated function calls. For example, imagine a user asking: "**I'm looking to book a room. Can you help me find something similar to what's in this picture?**" and uploading this image:
+
+![Hotel Room Example](https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+The AI assistant can then use this visual information and simulated user preferences (like loyalty status) to provide a tailored response: `<<response from AI assistant considering the image and user preferences>>`
