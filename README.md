@@ -4,6 +4,7 @@ Semantic Kernel (SK) is an open-source SDK that enables orchestration of your AI
 
 This repo contains Jupyter notebooks to assist you with the ramp-up learning process. These notebooks cover topics and Python code based on the official Semantic Kernel documentation site [here](https://learn.microsoft.com/en-us/semantic-kernel/overview/).
 
+___
 🎧 A series of **_audio podcasts_** will be also published [here](https://www.youtube.com/playlist?list=PLcAssiH4f14tVZIQtyl18fBwuBfKcnbH3) to review the content of the provided Jupyter notebooks.
 
 > [!WARNING]
