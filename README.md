@@ -6,6 +6,7 @@ This repo contains Jupyter notebooks to assist you with the ramp-up learning pro
 
 ___
 🎧 A series of **_audio podcasts_** will be also published [here](https://www.youtube.com/playlist?list=PLcAssiH4f14tVZIQtyl18fBwuBfKcnbH3) to review the content of the provided Jupyter notebooks.
+___
 
 > [!WARNING]
 > To run these notebooks successfully, you will need an Azure OpenAI Service deployment. Please ensure you have the following environment variables set up in your system:
@@ -19,14 +20,12 @@ ___
 >
 > You can set these environment variables in your operating system or within a `.env` file in the root of your project and load them using a library like `python-dotenv`.
 
-
 ## 📑 Table of Contents
 - [Notebook 1: Quick Start](#notebook-1-quick-start)
 - [Notebook 2: Essentials - AI Services](#notebook-2-essentials---ai-services)
 - [Notebook 3: Essentials - Filters](#notebook-3-essentials---filters)
 - [Notebook 4: Essentials - Observability](#notebook-4-essentials---observability)
 
----
 ## Notebook 1: Quick Start
 This notebook provides a fundamental intro to Semantic Kernel, guiding you through the initial setup.
 
