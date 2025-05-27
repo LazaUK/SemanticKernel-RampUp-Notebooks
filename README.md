@@ -11,12 +11,13 @@ ___
 > [!WARNING]
 > To run these notebooks successfully, you will need an Azure OpenAI Service deployment. Please ensure you have the following environment variables set up in your system:
 >
-> | Environment Variable          | Description                                                                                             |
-> | :---------------------------- | :------------------------------------------------------------------------------------------------------ |
-> | `AZURE_OPENAI_API_DEPLOY`     | The deployment name of your Azure OpenAI model, e.g. `gpt-41-mini`.                                     |
-> | `AZURE_OPENAI_API_BASE`       | The endpoint URL of your Azure OpenAI service, e.g. `https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/`. |
-> | `AZURE_OPENAI_API_VERSION`    | The API version to use, e.g. `2025-03-01-preview`.                                                      |
-> | `AZURE_APPINSIGHTS_CONNSTRING`| The Azure Application Insights' connection string                                                       |
+> | Environment Variable            | Description                                                                                             |
+> | :------------------------------ | :------------------------------------------------------------------------------------------------------ |
+> | `AZURE_OPENAI_API_DEPLOY`       | The deployment name of your Azure OpenAI GPT model, e.g. `gpt-41-mini`.                                 |
+> | `AZURE_OPENAI_API_DEPLOY_EMBED` | The deployment name of your Azure OpenAI embedding model, e.g. `text-embedding-ada-002`.                |
+> | `AZURE_OPENAI_API_BASE`         | The endpoint URL of your Azure OpenAI service, e.g. `https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/`. |
+> | `AZURE_OPENAI_API_VERSION`      | The API version to use, e.g. `2025-03-01-preview`.                                                      |
+> | `AZURE_APPINSIGHTS_CONNSTRING`  | The Azure Application Insights' connection string                                                       |
 >
 > You can set these environment variables in your operating system or within a `.env` file in the root of your project and load them using a library like `python-dotenv`.
 
@@ -25,7 +26,7 @@ ___
 - [Notebook 2: Essentials - AI Services](#notebook-2-essentials---ai-services)
 - [Notebook 3: Essentials - Filters](#notebook-3-essentials---filters)
 - [Notebook 4: Essentials - Observability](#notebook-4-essentials---observability)
-- [Notebook 5: Essentials - Memory]()
+- [Notebook 5: Essentials - Memory](#notebook-5-essentials---memory)
 - [Notebook 6: Essentials - Prompts]()
 - [Notebook 7: Essentials - Plugins]()
 
