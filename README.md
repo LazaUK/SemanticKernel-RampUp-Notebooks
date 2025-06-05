@@ -24,7 +24,7 @@ ___
 ## 📑 Table of Contents
 - [Notebook 1: Quick Start](#notebook-1-quick-start)
 - [Notebook 2: Essentials - AI Services](#notebook-2-essentials---ai-services)
-- [Notebook 3: Essentials - Filters](#notebook-3-essentials---filters)
+- [Notebook 3: Essentials - Content Filters](#notebook-3-essentials---content-filters)
 - [Notebook 4: Essentials - Observability](#notebook-4-essentials---observability)
 - [Notebook 5: Essentials - Vector Stores](#notebook-5-essentials---vector-stores)
 - [Notebook 6: Essentials - Prompts]()
@@ -57,8 +57,8 @@ Assistant: The room in the picture features a king-sized bed with a stylish head
 Since you have Diamond loyalty status and prefer amenities like a king bed, balcony, high floor, and late checkout, I will look for a premium room that closely matches this style and your preferences. Could you please let me know the location or city where you want to book this room, and your check-in and check-out dates?`
 ```
 
-## Notebook 3: Essentials - Filters
-This notebook provides an introduction to using **Filters** in Semantic Kernel.
+## Notebook 3: Essentials - Content Filters
+This notebook provides an introduction to using **Content Filters** in Semantic Kernel.
 
 Filters allow you to inject custom logic at specific points in the kernel's execution pipeline, enabling powerful control over AI interactions, e.g., on the prompts being entered or AI content generated.
 
