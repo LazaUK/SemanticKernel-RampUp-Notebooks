@@ -27,8 +27,7 @@ ___
 - [Notebook 3: Essentials - Content Filters](#notebook-3-essentials---content-filters)
 - [Notebook 4: Essentials - Observability](#notebook-4-essentials---observability)
 - [Notebook 5: Essentials - Vector Stores](#notebook-5-essentials---vector-stores)
-- [Notebook 6: Essentials - Prompts]()
-- [Notebook 7: Essentials - Plugins]()
+- [Notebook 6: Essentials - Plugins]()
 
 ## Notebook 1: Quick Start
 This notebook provides a fundamental intro to Semantic Kernel, guiding you through the initial setup.
@@ -89,12 +88,7 @@ You will learn how to set up your environment, create and populate an In-Memory 
 > [!NOTE]
 > Content files used in this notebook were borrowed from the [Microsoft's Azure OpenAI + Azure AI Search open-source solution](https://github.com/Azure-Samples/azure-search-openai-demo)
 
-## Notebook 6: Essentials - Prompts
-
-> [!Caution]
-> Work in progress. To be updated soon!
-
-## Notebook 7: Essentials - Plugins
+## Notebook 6: Essentials - Plugins
 
 > [!Caution]
 > Work in progress. To be updated soon!
