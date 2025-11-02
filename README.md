@@ -104,5 +104,21 @@ The key benefits of the Northwind Health Plus plan include comprehensive coverag
 
 ## Notebook 6: Essentials - Plugins
 
-> [!Caution]
-> Work in progress. To be updated soon!
+This notebook demonstrates how to integrate _external APIs_ as **Plugins** in Semantic Kernel using _OpenAPI_ specifications.
+
+You'll learn how to connect Semantic Kernel to **Azure "Standard" Logic Apps** as reusable tools that AI agents can invoke. The notebook covers:
+- creating a helper class to generate OpenAPI specs dynamically,
+- securely managing SAS authentication tokens in memory (without persisting to disk),
+- and enabling automatic function calling so the AI can seamlessly interact with your Logic Apps.
+
+For demo purposes, a weather forecast Logic App is integrated as a plugin. The AI agent responds to natural language queries like "What's the weather like in Paris?" by automatically calling the Logic App and returning structured weather info:
+
+``` JSON
+Chat Response:
+======================================================================
+User: What's the weather like in Paris?
+
+AI Agent: The weather in Paris is partly sunny with a high of 14°C during the day. There is a 22% chance of precipitation and winds are coming from the west-southwest at 14 km/h. At night, it will be mostly cloudy with a low of 7°C and winds at 9 km/h.
+```
+
+![AI_Weather_Forecast](images/AI_Weather_Forecast.png)
