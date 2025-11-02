@@ -18,6 +18,9 @@ ___
 > | `AZURE_OPENAI_API_BASE`         | The endpoint URL of your Azure OpenAI service, e.g. `https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/`. |
 > | `AZURE_OPENAI_API_VERSION`      | The API version to use, e.g. `2025-03-01-preview`.                                                      |
 > | `AZURE_APPINSIGHTS_CONNSTRING`  | The Azure Application Insights' connection string                                                       |
+> | `LOGIC_APP_NAME`                | The name of the Azure `Standard` Logic App resource                                                     |
+> | `WORKFLOW_NAME`                 | The name of the workflow within your Logic App                                                          |
+> | `TRIGGER_NAME`                  | The name of the HTTP trigger within your Logic App                                                      |
 >
 > You can set these environment variables in your operating system or within a `.env` file in the root of your project and load them using a library like `python-dotenv`.
 
