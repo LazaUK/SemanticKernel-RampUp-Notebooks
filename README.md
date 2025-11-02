@@ -27,7 +27,7 @@ ___
 - [Notebook 3: Essentials - Content Filters](#notebook-3-essentials---content-filters)
 - [Notebook 4: Essentials - Observability](#notebook-4-essentials---observability)
 - [Notebook 5: Essentials - Vector Stores](#notebook-5-essentials---vector-stores)
-- [Notebook 6: Essentials - Plugins]()
+- [Notebook 6: Essentials - Plugins](#notebook-6-essentials---plugins)
 
 ## Notebook 1: Quick Start
 This notebook provides a fundamental intro to Semantic Kernel, guiding you through the initial setup.
@@ -104,14 +104,14 @@ The key benefits of the Northwind Health Plus plan include comprehensive coverag
 
 ## Notebook 6: Essentials - Plugins
 
-This notebook demonstrates how to integrate _external APIs_ as **Plugins** in Semantic Kernel using _OpenAPI_ specifications.
+This notebook explains how to integrate _external APIs_ as **Plugins** in Semantic Kernel using _OpenAPI_ specifications.
 
-You'll learn how to connect Semantic Kernel to **Azure "Standard" Logic Apps** as reusable tools that AI agents can invoke. The notebook covers:
+You'll learn to connect Semantic Kernel to **Azure "Standard" Logic App** as a tool that AI agent can invoke. The notebook covers:
 - creating a helper class to generate OpenAPI specs dynamically,
 - securely managing SAS authentication tokens in memory (without persisting to disk),
-- and enabling automatic function calling so the AI can seamlessly interact with your Logic Apps.
+- and enabling automatic function calling so that AI can utilise your Logic Apps.
 
-For demo purposes, a weather forecast Logic App is integrated as a plugin. The AI agent responds to natural language queries like "What's the weather like in Paris?" by automatically calling the Logic App and returning structured weather info:
+For demo purposes, a weather forecast Logic App is integrated as a plugin. The AI agent responds to natural language queries like "What's the weather like in Paris?" by automatically calling the Logic App and returning relevant weather forecast:
 
 ``` JSON
 Chat Response:
