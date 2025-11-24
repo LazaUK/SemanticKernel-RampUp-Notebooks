@@ -1,0 +1,24 @@
+# Core Semantic Kernel package
+semantic-kernel>=1.36.0
+
+# Azure OpenAI and AI Inference
+azure-ai-inference
+azure-identity
+
+# OpenTelemetry for observability (Notebook 4)
+azure-monitor-opentelemetry-exporter
+opentelemetry-api
+opentelemetry-sdk
+
+# PDF processing (Notebook 5)
+PyPDF2
+
+# Azure Logic Apps management (Notebook 6)
+azure-mgmt-web
+
+# Environment variables management
+python-dotenv
+
+# Jupyter notebook support
+ipykernel
+ipython

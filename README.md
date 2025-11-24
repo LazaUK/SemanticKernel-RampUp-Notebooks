@@ -8,6 +8,48 @@ ___
 🎧 A series of **_audio podcasts_** will be also published [here](https://www.youtube.com/playlist?list=PLcAssiH4f14tVZIQtyl18fBwuBfKcnbH3) to review the content of the provided Jupyter notebooks.
 ___
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- Azure OpenAI Service deployment
+
+### Setup Instructions
+
+1. **Create a Python virtual environment:**
+
+   **Windows (PowerShell):**
+   ```powershell
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
+   ```
+
+   **macOS/Linux:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. **Install required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure environment variables:**
+   
+   Create a `.env` file in the root directory with your Azure OpenAI credentials:
+   ```bash
+   AZURE_OPENAI_API_DEPLOY=your-deployment-name
+   AZURE_OPENAI_API_DEPLOY_EMBED=text-embedding-ada-002
+   AZURE_OPENAI_API_BASE=https://YOUR_AOAI_SERVICE_NAME.openai.azure.com/
+   AZURE_OPENAI_API_VERSION=2024-10-21
+   AZURE_OPENAI_API_KEY=your-api-key
+   ```
+
+4. **Select the Python environment:**
+   
+   In VS Code, select the virtual environment (`venv`) as your Python interpreter for the notebooks.
+
 > [!WARNING]
 > To run these notebooks successfully, you will need an Azure OpenAI Service deployment. Please ensure you have the following environment variables set up in your system:
 >
