@@ -1,24 +1,24 @@
 # Core Semantic Kernel package
-semantic-kernel>=1.36.0
+semantic-kernel==1.38.0
 
 # Azure OpenAI and AI Inference
-azure-ai-inference
-azure-identity
+azure-ai-inference==1.0.0b9
+azure-identity==1.25.1
 
 # OpenTelemetry for observability (Notebook 4)
-azure-monitor-opentelemetry-exporter
-opentelemetry-api
-opentelemetry-sdk
+azure-monitor-opentelemetry-exporter==1.0.0b45
+opentelemetry-api==1.38.0
+opentelemetry-sdk==1.38.0
 
 # PDF processing (Notebook 5)
-PyPDF2
+PyPDF2==3.0.1
 
 # Azure Logic Apps management (Notebook 6)
-azure-mgmt-web
+azure-mgmt-web==10.1.0
 
 # Environment variables management
-python-dotenv
+python-dotenv==1.2.1
 
 # Jupyter notebook support
-ipykernel
-ipython
+ipykernel==7.1.0
+ipython==9.7.0
