@@ -25,7 +25,7 @@ ___
 > You can set these environment variables in your operating system or within a `.env` file in the root of your project and load them using a library like `python-dotenv`.
 
 ## 📑 Table of Contents
-- [🚀 Getting Started]()
+- [🚀 Getting Started](#-getting-started)
 - [Notebook 1: Quick Start](#notebook-1-quick-start)
 - [Notebook 2: Essentials - AI Services](#notebook-2-essentials---ai-services)
 - [Notebook 3: Essentials - Content Filters](#notebook-3-essentials---content-filters)
